@@ -1,0 +1,310 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .form{
+        width: 750px;
+        height: 600px;
+        margin: 50px auto;
+        border: none;
+        border-radius: 14px;
+        background-color: royalblue;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .two-forms{
+        display: flex;
+        width: 300px;
+        margin: 10px auto;
+        background-color: black;
+        border-radius: 15px;
+    
+    }
+    .form-btn{
+        width: 250px;
+        padding: 15px;
+        font-size: 15px;
+        border: none;
+        border-radius: 15px;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    
+    #login-btn{
+        border-right: 1px solid royalblue;
+    }
+    
+    .forms{
+        position: relative;
+        height: 300px;
+        margin: 10px 225px;
+        padding: 5px;
+    } 
+    
+    #login-form{
+        position: absolute;
+    }
+    
+    
+    
+    
+    #loginEmail{
+        width: 250px;
+        padding: 20px;
+        border: none;
+        border-radius: 14px;
+        margin: 10px auto;
+        font-size: 15px;
+        color: black;
+    }
+    
+    #loginPassword{
+        width: 250px;
+        padding: 20px;
+        border: none;
+        border-radius: 14px;  
+        margin: 10px auto;
+        font-size: 15px;
+        color: black;
+    }
+    
+    #registerName{
+        width: 250px;
+        padding: 20px;
+        border: none;
+        border-radius: 14px;  
+        margin: 10px auto;
+        font-size: 15px;
+        color: black;
+    }
+    
+    #registerEmail{
+        width: 250px;
+        padding: 20px;
+        border: none;
+        border-radius: 14px;
+        margin: 10px auto;
+        font-size: 15px;
+        color: black;
+    }
+    
+    #registerPassword{
+        width: 250px;
+        padding: 20px;
+        border: none;
+        border-radius: 14px;  
+        margin: 10px auto;
+        font-size: 15px;
+        color: black;
+    }
+
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .register-form{
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    
+    
+    
+    #login{
+        font-size: 15px;
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        background-color: black;
+        color: whitesmoke;
+        margin: 20px auto;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    
+    
+    #register{
+        font-size: 15px;
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        background-color: black;
+        color: whitesmoke;
+        margin: 20px auto;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    
+    
+    
+    .main{
+        font-size: 50px;
+    }
+    
+    .sub{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+/* Desktop*/
+
+@media only screen and (min-width: 2000px) {
+    .form{
+        width: 1750px;
+        height: 1500px;
+        margin: 50px auto;
+        border: none;
+        border-radius: 14px;
+        background-color: royalblue;
+        padding: 75px;
+        text-align: center;
+    }
+
+    .two-forms{
+        display: flex;
+        width: 1000px;
+        margin: 50px auto;
+        background-color: black;
+    
+    }
+    .form-btn{
+        width: 1000px;
+        padding: 50px;
+        font-size: 50px;
+        border: none;
+        border-radius: 15px;
+        margin: 5px;
+        background-color: black;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    
+    #login-btn{
+        border-right: 1px solid royalblue;
+    }
+    
+     .forms{
+        position: relative;
+        height: 500px;
+    } 
+    
+    #login-form{
+        position: absolute;
+    }
+    
+    .login-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register-form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    #loginEmail{
+        width: 1000px;
+        padding: 50px;
+        border: none;
+        border-radius: 14px;
+        margin: 50px;
+        font-size: 40px;
+        color: black;
+    }
+    
+    #loginPassword{
+        width: 1000px;
+        padding: 50px;
+        border: none;
+        border-radius: 14px;  
+        margin: 50px;
+        font-size: 40px;
+        color: black;
+    }
+    
+    #registerName{
+        width: 1000px;
+        padding: 50px;
+        border: none;
+        border-radius: 14px;  
+        margin: 50px;
+        font-size: 40px;
+        color: black;
+    }
+    
+    #registerEmail{
+        width: 1000px;
+        padding: 50px;
+        border: none;
+        border-radius: 14px;
+        margin: 50px;
+        font-size: 40px;
+        color: black;
+    }
+    
+    #registerPassword{
+        width: 1000px;
+        padding: 50px;
+        border: none;
+        border-radius: 14px;  
+        margin: 50px;
+        font-size: 40px;
+        color: black;
+    }
+    
+    
+    
+    #login{
+        font-size: 50px;
+        width: 500px;
+        height: 100px;
+        padding: 25px;
+        background-color: black;
+        color: whitesmoke;
+        margin: 50px;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    
+    
+    #register{
+        font-size: 50px;
+        width: 500px;
+        height: 100px;
+        padding: 25px;
+        background-color: black;
+        color: whitesmoke;
+        margin: 50px;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    
+    
+    
+    .main{
+        font-size: 100px;
+    }
+    
+    .sub{
+        font-size: 50px;
+    }
+    
+}
+
+

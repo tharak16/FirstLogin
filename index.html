@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="setDisplay()">
+
+    <div class="form" id="form">
+        <h1 class="main">Welcome To Bootcamp</h1>
+
+        <h3 class="sub" id="sub">Please login</h3>
+
+        <div class="two-forms">
+            <button type="button" id="login-btn" class="form-btn" onclick="displayLogin()">Login</button>
+            <button type="button" id="register-btn" class="form-btn" onclick="displayRegister()">Register</button>
+            
+        </div>
+        <div class="forms">
+            <div class="login-form" id="login-form">
+                <input type="email" name="email" id="loginEmail" placeholder="Enter User Email">
+                <input type="password" name="password" id="loginPassword" placeholder="Enter User password">
+                <button type="button" id="login" onclick="login()">Login</button>
+            </div>
+            <div class="register-form" id="register-form">
+                <input type="text" name="name" id="registerName" placeholder="Enter your name">
+                <input type="email" name="email" id="registerEmail" placeholder="Enter User Email">
+                <input type="password" name="password" id="registerPassword" placeholder="Enter User password">
+                <button type="button" id="register" onclick="register()">Register</button>
+            </div>
+        </div>
+        
+
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+
+
+</body>
+</html>
